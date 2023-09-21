@@ -5,12 +5,12 @@ description: > # The description for your site
 url: "https://ritijjain.github.io/pudhina-fresh" # Site base URL
 
 author:
-  name: Ritij Jain
-  github: ritijjain/pudhina-fresh # GitHub username, used for GitHub icon on the top right
-  linkedin: ritijjain # Your LinkedIn profile url name, used for LinkedIn icon on the top right
+  # name: Ritij Jain
+  # github: ritijjain/pudhina-fresh # GitHub username, used for GitHub icon on the top right
+  # linkedin: ritijjain # Your LinkedIn profile url name, used for LinkedIn icon on the top right
   email: example@example.com # Used for email icon on the top right
   homepage: https://ritijjain.com # This links to your name in post meta
-  twitter: # Twitter username, used for Twitter Card Analytics 
+  # twitter: # Twitter username, used for Twitter Card Analytics 
 
 disqus_name: # Setting this will turn on Disqus comments
 g_track_id: # Google Analytics tracking ID (e.g. UA-000000-2), setting this will turn on Google Analytics
@@ -49,5 +49,5 @@ compress_html:
   startings: [html, head, body]
 
 rss: false # RSS feed icon on or off
-dark_mode: true # Dark mode icon
+dark_mode: false # Dark mode icon
 project_card_style: modal # Choose from masonry, modal, and flat
