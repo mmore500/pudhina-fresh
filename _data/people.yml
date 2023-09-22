@@ -1,0 +1,33 @@
+- key: first1
+  nick: Ada
+  stage: postdoc
+  role:
+    - organizer
+    - panelist-2023-09
+  bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  institution: Ecology and Evolutionary Biology
+
+- key: first2
+  nick: Brett
+  stage: graduate student
+  role:
+    - organizer
+    - presenter-2023-09
+  bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  institution: Ecology and Evolutionary Biology, Complex Systems, Michigan Institute of Data Science
+
+- key: first3
+  nick: Catherine
+  stage: graduate student
+  role:
+    - organizer
+  bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  institution: Ecology and Evolutionary Biology
+
+- key: first4
+  nick: Doris
+  stage: faculty
+  role:
+    - presenter-2023-09
+  bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  institution: Ecology and Evolutionary Biology

@@ -70,7 +70,7 @@ th {
   text-align: left;
   padding: 8px;
 }
-/*  
+/*
   tr:nth-child(even) {
     background-color: #dddddd;
   }
@@ -632,4 +632,28 @@ a.logo:hover {
   100% {
     text-shadow: -1px 0 0 blue, 1px 0 0 lime;
   }
+}
+
+.img-holder {
+  width: 20%;
+  position: relative;
+  min-width:100px;
+  max-width:150px;
+  padding: 10px;
+}
+.img-holder img {
+  top: 0;
+  left: 0;
+}
+
+.slide-holder {
+  width: 40%;
+  position: relative;
+  min-width:100px;
+  max-width:250px;
+  padding: 10px;
+}
+.slide-holder img {
+  top: 0;
+  left: 0;
 }

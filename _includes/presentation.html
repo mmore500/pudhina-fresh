@@ -1,0 +1,99 @@
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+
+  <div class="img-holder">
+    <img
+    src="{{ site.baseurl }}/assets/headshots/{{ person.key }}.jpg"
+    alt="{{ person.first }} {{ person.last }}"
+    >
+  </div>
+
+  <div class="slide-holder">
+    <img
+    src="{{ site.baseurl }}/assets/titleslides/{{ presentation.seminar | slugify }}-{{ person.key }}.jpg"
+    alt="{{ person.first }} {{ person.last }}"
+    >
+  </div>
+
+  <div style="padding-left: 10px; padding-top: 10px; width: 80%; flex-grow: 1;">
+    <span class="h2"> {{ presentation.title }} </span>
+  </div>
+  <div style="padding-left: 10px; width: 80%; flex-grow: 1;">
+    <a href="{{ site.baseurl }}/people#{{ person.key }}">
+    <span class="h3"> {{ person.nick }} </span>
+    </a>
+    | {{ person.institution}}
+    | <a name="{{ person.key | replace: "-", "_" }}{{ person.year }}" href="#{{ presentation.seminar | slugify }}-{{ person.key }}">🔗</a>
+    |
+
+    <script>
+    function {{ person.key | replace: "-", "_" }}{{ person.year }}_hide() {
+      for (
+        element of document.getElementsByClassName('{{ person.key | replace: "-", "_" }}{{ person.year }}-show')
+      ) {
+        element.style.display = '';
+      }
+      for (
+        element of document.getElementsByClassName('{{ person.key | replace: "-", "_" }}{{ person.year }}-hide')
+      ) {
+        element.style.display = 'none';
+      }
+      document.getElementById('{{ person.key | replace: "-", "_" }}{{ person.year }}-bio').style.maxHeight = '3em';
+    }
+    </script>
+
+    <script>
+    function {{ person.key | replace: "-", "_" }}{{ person.year }}_show() {
+      for (
+        element of document.getElementsByClassName('{{ person.key | replace: "-", "_" }}{{ person.year }}-hide')
+      ){
+        element.style.display = '';
+      }
+      for (
+        element of document.getElementsByClassName('{{ person.key | replace: "-", "_" }}{{ person.year }}-show')
+      ){
+        element.style.display = 'none';
+      }
+      document.getElementById('{{ person.key | replace: "-", "_" }}{{ person.year }}-bio').style.maxHeight = '';
+    }
+    </script>
+
+    <a
+      href="javascript:;"
+      style="writing-mode:vertical-rl;"
+      class="{{ person.key | replace: "-", "_" }}{{ person.year }}-show"
+      onclick="{{ person.key | replace: "-", "_" }}{{ person.year }}_show();"
+    > » </a>
+    <a
+      href="javascript:;"
+      style="writing-mode:vertical-rl; display:none;"
+      class="{{ person.key | replace: "-", "_" }}{{ person.year }}-hide"
+      onclick="{{ person.key | replace: "-", "_" }}{{ person.year }}_hide();"
+    > « </a>
+
+    <blockquote
+      id="{{ person.key | replace: "-", "_" }}{{ person.year }}-bio"
+      style="max-height: 3em; overflow: hidden;"
+    >
+    {{ presentation.abstract }}
+    <a href="javascript:{{ person.key | replace: "-", "_" }}{{ person.year }}_hide();">
+    (less)
+    </a>
+    </blockquote>
+    <div
+      class="{{ person.key | replace: "-", "_" }}{{ person.year }}-show"
+      style="margin-top: -1em;"
+    >
+    &nbsp; &nbsp; &nbsp;
+    <a href="javascript:{{ person.key | replace: "-", "_" }}{{ person.year }}_show();">
+      more ...
+    </a>
+    </div>
+    <div
+      class="{{ person.key | replace: "-", "_" }}{{ person.year }}-hide"
+      style="margin-top: -1em; display: none;"
+      onclick="{{ person.key | replace: "-", "_" }}{{ person.year }}_show();"
+    >
+    </div>
+  </div>
+
+</div>

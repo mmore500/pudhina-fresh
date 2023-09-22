@@ -1,0 +1,12 @@
+- seminar: "September 2023"
+  title: "Lorem Ipsum Dolor: Sit Amet"
+  abstract: abstract
+  img_src: /assets/img/connectpie-page.png # Optional image
+  abstract: Lorem Ipsum is a term familiar to many designers, publishers, and communicators. It refers to a placeholder text used widely in the print and digital publishing industry when the actual text is not available. The origins of Lorem Ipsum can be traced back to the classical Latin literature from 45 BCE, specifically a work by Cicero—a Roman statesman, orator, and author—called de Finibus Bonorum et Malorum (On the Extremes of Good and Evil). Over the years, the text has evolved, with various versions and lengths being used. Its purpose is to provide a natural-looking block of text, with letters and syllables distributed in a way that closely resembles the flow of human-written language. This ensures that the overall visual impression is consistent with a real-life document, allowing designers to focus on aesthetic and functional aspects of their layouts without being distracted by the content itself.
+  person_key: first2
+- seminar: "September 2023"
+  title: Consectetur Adipiscing Elit
+  abstract: abstract
+  img_src: /assets/img/connectpie-page.png # Optional image
+  abstract: Lorem Ipsum is a term familiar to many designers, publishers, and communicators. It refers to a placeholder text used widely in the print and digital publishing industry when the actual text is not available. The origins of Lorem Ipsum can be traced back to the classical Latin literature from 45 BCE, specifically a work by Cicero—a Roman statesman, orator, and author—called de Finibus Bonorum et Malorum (On the Extremes of Good and Evil). Over the years, the text has evolved, with various versions and lengths being used. Its purpose is to provide a natural-looking block of text, with letters and syllables distributed in a way that closely resembles the flow of human-written language. This ensures that the overall visual impression is consistent with a real-life document, allowing designers to focus on aesthetic and functional aspects of their layouts without being distracted by the content itself.
+  person_key: first4

@@ -1,22 +1,27 @@
 ---
 layout: page
 full_logo: true
-title: 
-subtitle: 
+title:
+subtitle:
 description: A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
 sitemap:
   priority: 1.0
 ---
-<p class="describe-text">A minimal yet feature-rich Jekyll theme made for personal websites and blogs.</p>
-<br>
-This is the index page, describe yourself in few sentences here. Perhaps talk about what you do for living and what you do in your free time. Maybe even leave an [email@address.com](#) or a link to your [resume](#).
 
-Pudhina Fresh is free and open-source. Checkout [Pudhina Fresh](https://github.com/ritijjain/pudhina-fresh).
+A few words about the program.
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+{% assign seminars = site.data.presentations | sort: "seminar" | map: "seminar" | uniq %}
+
+{% for seminar in seminars %}
+  <h1> {{ seminar }} </h1>
+
+  {% for presentation in site.data.presentations %}
+    {% if seminar == presentation.seminar %}
+      {% for person in site.data.people %}
+        {% if person.key == presentation.person_key %}
+{% include presentation.html %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
