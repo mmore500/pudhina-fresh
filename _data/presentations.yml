@@ -1,8 +1,12 @@
 - person_key: anah
   seminar: "September 2023"
-  img_src: /assets/titleslides/2023-09-anah.jpg
   title: How does agriculture affect wild plants?
   abstract: I became a scientist because I like to figure things out and solve problems. I started to become interested in herbicides impact on the environment when I began working in a lab at University of Michigan. The herbicide Dicamba poses many problems in agriculture because once it has been sprayed on weeds, it can evaporate and spread onto wild plants. However, because it is being spread in the air, it is affecting plants at a much lower dose than what is recommended in the field. This can lead to all kinds of unexpected impacts. By using the scientific method, I can observe how some plants react to dicamba and analyze how they express their genes differently.
+- person_key: roberto
+  seminar: "September 2023"
+  title: How to make a toxic frog?
+  abstract: abstract
+  abstract: Animals use toxins for a variety of purposes, such as avoiding predation or hunting prey. However, in order to do this, they need to be able to avoid their own toxin's noxious effects. In this talk I first discuss my work on how poison frogs are able to resist their own powerful toxins, and what this can teach us to successfully and safely use toxins for human purposes, such as medicine and agriculture. Second, I share some of the "daily life" aspects of my job as a scientist, as well as some of the common career paths taken by people with a STEM education.
 - person_key: first3
   seminar: "September 2023"
   title: Consectetur Adipiscing Elit

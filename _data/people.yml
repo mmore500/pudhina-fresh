@@ -23,10 +23,10 @@
   bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   institution: Ecology and Evolutionary Biology
 
-- key: first4
-  nick: Doris
-  stage: faculty
+- key: roberto
+  nick: Roberto
+  stage: postdoc
   role:
     - presenter-2023-09
-  bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  bio: I am a geneticist and frog scientist interested in understanding how changes in DNA (mutations) translate into traits that influence an species' evolution.
   institution: Ecology and Evolutionary Biology
