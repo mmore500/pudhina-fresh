@@ -1,12 +1,11 @@
-- key: first1
-  nick: Ada
-  stage: postdoc
+- key: anah
+  nick: Anah
+  stage: Masters Student
   role:
     - organizer
-    - panelist-2023-09
-  bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - presenter-2023-09
   institution: Ecology and Evolutionary Biology
-
+  bio:
 - key: first2
   nick: Brett
   stage: graduate student
