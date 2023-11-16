@@ -58,6 +58,7 @@
       onclick="{{ person.key | replace: "-", "_" }}{{ person.year }}_hide();"
     > « </a>
 
+    {% if person.bio and person.bio != '' %}
     <blockquote
       id="{{ person.key | replace: "-", "_" }}{{ person.year }}-bio"
       style="max-height: 3em; overflow: hidden;"
@@ -82,6 +83,7 @@
       onclick="{{ person.key | replace: "-", "_" }}{{ person.year }}_show();"
     >
     </div>
+    {% endif %}
   </div>
 
 </div>
