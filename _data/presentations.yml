@@ -5,11 +5,8 @@
 - person_key: roberto
   seminar: "November 2023"
   title: How to make a toxic frog?
-  abstract: abstract
   abstract: Animals use toxins for a variety of purposes, such as avoiding predation or hunting prey. However, in order to do this, they need to be able to avoid their own toxin's noxious effects. In this talk I first discuss my work on how poison frogs are able to resist their own powerful toxins, and what this can teach us to successfully and safely use toxins for human purposes, such as medicine and agriculture. Second, I share some of the "daily life" aspects of my job as a scientist, as well as some of the common career paths taken by people with a STEM education.
-- person_key: first3
-  seminar: "September 2023"
-  title: Consectetur Adipiscing Elit
-  abstract: abstract
-  img_src: /assets/img/connectpie-page.png # Optional image
-  abstract: Lorem Ipsum is a term familiar to many designers, publishers, and communicators. It refers to a placeholder text used widely in the print and digital publishing industry when the actual text is not available. The origins of Lorem Ipsum can be traced back to the classical Latin literature from 45 BCE, specifically a work by Cicero—a Roman statesman, orator, and author—called de Finibus Bonorum et Malorum (On the Extremes of Good and Evil). Over the years, the text has evolved, with various versions and lengths being used. Its purpose is to provide a natural-looking block of text, with letters and syllables distributed in a way that closely resembles the flow of human-written language. This ensures that the overall visual impression is consistent with a real-life document, allowing designers to focus on aesthetic and functional aspects of their layouts without being distracted by the content itself.
+- person_key: jill
+  seminar: "November 2023"
+  title: What can under-studied fungi teach us about fundamental life processes?
+  abstract:
