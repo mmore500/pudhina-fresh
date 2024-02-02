@@ -3,12 +3,11 @@ layout: page
 full_logo: true
 title:
 subtitle:
-description: A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
+description:
 sitemap:
   priority: 1.0
 ---
 
-A few words about the program.
 
 {% assign seminars = site.data.presentations | sort: "seminar" | map: "seminar" | uniq %}
 

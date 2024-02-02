@@ -93,6 +93,15 @@ a.logo:hover {
   text-decoration: none;
 }
 
+.sublogo,
+a.sublogo:hover {
+  font-size: 100%;
+  font-weight: 100;
+  color: #406d64;
+  display: block;
+  text-decoration: none;
+}
+
 .menu {
   color: #828282;
   font-size: 150%;
