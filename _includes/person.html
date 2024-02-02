@@ -61,7 +61,7 @@
     {% if person.bio and person.bio != '' %}
     <blockquote
       id="{{ person.key | replace: "-", "_" }}{{ person.year }}-bio"
-      style="max-height: 3em; overflow: hidden;"
+      style="max-height: 6em; overflow: hidden;"
     >
     {{ person.bio }}
     <a href="javascript:{{ person.key | replace: "-", "_" }}{{ person.year }}_hide();">
