@@ -8,7 +8,8 @@ description:
 
 {% assign presenters2023sep = site.data.people | where_exp: "person", "person.role contains 'presenter-2023-09'" | sort: "nick" %}
 {% assign panelists2023sep = site.data.people | where_exp: "person", "person.role contains 'panelist-2023-09'" | sort: "nick" %}
-
+{% assign presenters2023nov = site.data.people | where_exp: "person", "person.role contains 'presenter-2023-11'" | sort: "nick" %}
+{% assign panelists2023nov = site.data.people | where_exp: "person", "person.role contains 'panelist-2023-11'" | sort: "nick" %}
 
 # Organizers
 ---
@@ -18,6 +19,24 @@ description:
 
 {% endfor %}
 
+# November 2023 Seminar
+---
+
+## Presenters
+
+{% for person in presenters2023nov %}
+
+  {% include person.html %}
+
+{% endfor %}
+
+<!-- ## Panelists
+
+{% for person in panelists2023nov %}
+
+  {% include person.html %}
+
+{% endfor %} -->
 
 # September 2023 Seminar
 ---
