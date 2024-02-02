@@ -9,15 +9,18 @@ description:
 {% assign presenters2023sep = site.data.people | where_exp: "person", "person.role contains 'presenter-2023-09'" | sort: "nick" %}
 {% assign panelists2023sep = site.data.people | where_exp: "person", "person.role contains 'panelist-2023-09'" | sort: "nick" %}
 
-# Organizers
 
+# Organizers
+---
 {% for person in organizers %}
 
   {% include person.html %}
 
 {% endfor %}
 
+
 # September 2023 Seminar
+---
 
 ## Presenters
 
