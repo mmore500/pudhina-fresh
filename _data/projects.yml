@@ -11,7 +11,7 @@
 
 - name: Pudina Fresh Jekyll Theme
   id: pf
-  img_src: 
+  img_src:
   description_less: A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
   description_more: >
     <p>This site uses Pudhina Fresh theme.</p>
@@ -22,7 +22,7 @@
 
 - name: Project Two
   id: p2
-  img_src: 
+  img_src:
   description_less: Refer to docs to learn how to add your own projects.
   description_more: >
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
