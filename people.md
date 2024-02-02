@@ -29,10 +29,10 @@ description: Program folks
 
 {% endfor %}
 
-## Panelists
+<!-- ## Panelists
 
 {% for person in panelists2023sep %}
 
   {% include person.html %}
 
-{% endfor %}
+{% endfor %} -->
