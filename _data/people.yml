@@ -13,16 +13,6 @@
     - organizer
   bio: My research interests are in applying computer simulation to study the evolution of evolvability. I am also passionate about software engineering and spend a lot of my time writing code!
   institution: Ecology and Evolutionary Biology, Complex Systems, Michigan Institute of Data Science
-
-- key: first3
-  nick: Catherine
-  stage: graduate student
-  role:
-    - organizer
-    - presenter-2023-09
-  bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  institution: Ecology and Evolutionary Biology
-
 - key: roberto
   nick: Roberto
   stage: postdoc
@@ -30,7 +20,6 @@
     - presenter-2023-11
   bio: I am a geneticist and frog scientist interested in understanding how changes in DNA (mutations) translate into traits that influence an species' evolution.
   institution: Ecology and Evolutionary Biology
-
 - key: abbey
   nick: Abbey
   stage: graduate student
